@@ -1,3 +1,3 @@
 from openpyxl import Workbook, load_workbook
 
-wb = load_workbook('"C:\Users\HP\Downloads\Grades.xlsx"');
+wb = load_workbook('Grades.xlsx')
