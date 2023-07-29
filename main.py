@@ -2,4 +2,6 @@ from openpyxl import Workbook, load_workbook
 
 wb = load_workbook('Grades.xlsx')
 ws = wb.active
-print(ws['A2'].value)
+# print(ws['A2'].value)
+ws['A2'].value = "Test"
+wb.save('Grades.xlsx')
