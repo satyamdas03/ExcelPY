@@ -9,3 +9,8 @@ wb = load_workbook('Grades.xlsx')
 wb.create_sheet("Test")
 print(wb.sheetnames)
 # rest to start shortly
+# creating new workbook
+#adding/appending rows
+# accessing multiple cells
+# merging cells
+# inserting and deleting rows
