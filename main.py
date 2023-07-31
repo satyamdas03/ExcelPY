@@ -14,3 +14,5 @@ print(wb.sheetnames)
 # accessing multiple cells
 # merging cells
 # inserting and deleting rows
+#copying and moving cells
+#practical example and formula for moving cells and styling them
